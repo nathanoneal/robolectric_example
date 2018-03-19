@@ -16,14 +16,6 @@ import org.robolectric.annotation.Config
 @Config(sdk = intArrayOf(JELLY_BEAN, JELLY_BEAN_MR1))
 class ExampleRobolectricTest {
 
-    @Test
-    fun testFunction() {
-//        val uri = buildUri("http://www.google.com")
-//        assertThat(uri.host).equals("www.google.com")
-    }
-
-
-
     fun getName(context: Context): String {
         return context.getString(R.string.app_name)
     }
